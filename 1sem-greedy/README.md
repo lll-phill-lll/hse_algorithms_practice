@@ -119,3 +119,24 @@
 
 #### Идея решения
 
+## Заметки
+
+### Lower_bound/upper_bound в set
+В std::set лучше использовать встроенный метод lower_bound/upper_bound, поскольку
+итераторы не имеют произвольного доступа к содержимому set и бинарный поиск работать
+не будет. Время работы алгоритма будет линейным.
+
+[Cppreference:](https://en.cppreference.com/w/cpp/algorithm/upper_bound)
+```
+The number of comparisons performed is logarithmic in the distance between first and
+last (At most log2(last - first) + O(1) comparisons). However, for
+non-LegacyRandomAccessIterators, the number of iterator increments is linear. Notably,
+std::set and std::multiset iterators are not random access, and so their member functions
+std::set::upper_bound (resp. std::multiset::upper_bound) should be preferred.
+```
+
+### Задача про перегородки, посмотреть дополнительно
+
+[Задача Джонсона с двумя станками](https://e-maxx.ru/algo/johnson_problem_2)
+
+
