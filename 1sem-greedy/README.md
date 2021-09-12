@@ -32,6 +32,7 @@
 Выходные данные
 
 3
+
 ------
 
 [Informatics](https://informatics.msk.ru/mod/statements/view.php?chapterid=2816#1)
@@ -73,6 +74,7 @@
 Выходные данные
 
 5 1 1 2 2 3 4 4 5 1 3
+
 ------
 
 [Informatics](https://informatics.msk.ru/mod/statements/view.php?chapterid=2859#1)
@@ -110,6 +112,7 @@
 Выходные данные
 
 6.00000000 4 2 1 3
+
 -------
 
 [Informatics](https://informatics.msk.ru/mod/statements/view.php?chapterid=112125#1)
