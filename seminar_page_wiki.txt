@@ -1,0 +1,75 @@
+[http://wiki.cs.hse.ru/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B_%D0%B8_%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D1%8B_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85_2_2021 на страницу курса]
+
+Страничка для материалов семинаров курса АиСД 21-22 группы БПМИ2010-1.
+
+= Семинары =
+
+== Материалы семинаров ==
+=== Жадные алгоритмы (07.09.2021) ===
+[https://github.com/lll-phill-lll/hse_algorithms_seminars/tree/master/1sem-greedy Условия семинарских задач, код и заметки]
+=== Префикс-функция и Алгоритм Ахо-Корасик (10.09.2021) ===
+[https://github.com/lll-phill-lll/hse_algorithms_seminars/tree/master/2sem-aho-korasick Условия семинарских задач, код и заметки]
+
+[https://disk.yandex.ru/i/o_6O8gPrkgkmKw Запись консультации]
+
+=== Сжатие и кодирование данных: алгоритмы Хаффмана и Лемпела-Зива, кодирование с исправлением ошибок (14.09.2021) ===
+[https://github.com/lll-phill-lll/hse_algorithms_seminars/tree/master/3sem-coding Условия семинарских задач, код и заметки]
+
+=== Персистентные структуры (17.09.2021) ===
+
+[https://github.com/lll-phill-lll/hse_algorithms_seminars/tree/master/4sem-persistent Условия семинарских задач, код и заметки]
+
+[https://neerc.ifmo.ru/wiki/index.php?title=%D0%9F%D0%B5%D1%80%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BD%D1%82%D0%BD%D0%B0%D1%8F_%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D1%8C Текстовое описание персистентной очереди (6 стеков)]
+
+[https://youtu.be/9lPLshWk3Lk?t=3323 Видео с очень понятным объяснением персистентной очереди (с 55:23)]
+
+=== Параллельность в C++ (Параллельные алгоритмы) (21.09.2021) ===
+
+[https://github.com/lll-phill-lll/hse_algorithms_seminars/tree/master/5sem-parallel Гитхаб с кодом и пояснениями]
+
+Прошлый год: [https://www.youtube.com/watch?v=tyAFU7H_Z-E&list=PLEwK9wdS5g0rBPRiw6jl6fnIMY2vne-hM&index=14 лекция],
+[https://drive.google.com/file/d/19oARvl7S7vraE2wACS75qxf8Bf_HxMT7/view?usp=sharing презентация],
+[https://drive.google.com/file/d/1Jp7lyIv1xgnrWE7nG6KSIWG4gD1Y50ql/view?usp=sharing код],
+[https://drive.google.com/file/d/1eNE-vxRH2UeSUXqJelvtDIyluThkLC5K/view?usp=sharing код с семинара]
+
+====  Запуск кода ====
+
+# Установить g++9 (ubuntu): sudo apt-get install g++-9 libstdc++-9-dev libtbb-dev
+# При компиляции линковать с ltbb и lpthread: g++ file.cpp --std=c++17 –ltbb –lpthread
+
+==== По 5 контесту ====
+
+
+# Засчитывается любое решение, которое «...на достаточно больших векторах выигрывает у стандартного однопоточного решения с деревом отрезков в среднем минимум на 30 %» То есть в целом не обязательно делать реализацию параллельной. Сравнивать мы будем с какой-то нашей реализацией дерева отрезков.
+# Проверять мы будем руками. Есть надежда, что корректность реализации будет проверяться в контесте, но пока это так не работает. Можно попробовать проверить реализацию вне контеста, например, [https://informatics.msk.ru/mod/statements/view.php?id=597&chapterid=752#1 тут]: RMQ (я не успел проверить, насколько корректно проверяется по ссылке, как проверю, отпишу дополнительно сюда, если кто-то уже попробовал посдавать, отпишите мне)
+# После дедлайна досдать можно будет только на половину балла. Даже если проверка домашки произошла после дедлайна. Имейте это в виду.
+
+=== Параллельность в C++ (Параллельные алгоритмы) (24.09.2021) ===
+
+[https://github.com/lll-phill-lll/hse_algorithms_seminars/tree/master/6sem-parallel Гитхаб с кодом и пояснениями]
+
+==== Запуск кода ====
+#  [https://colab.research.google.com/drive/1_XmRWgpsLu4XmbachJ0oq9lsfbwqTueh?usp=sharing Пример] с запуском C++ кода в колабе (установка нужных либ)
+# Также ноутбук доступен на [https://github.com/lll-phill-lll/hse_algorithms_seminars/tree/master/6sem-parallel гитхабе]
+
+== Оценка за семинар ==
+
+За каждый семинар можно получить 1, 0.5 или 0.
+* 0   - не прийти на семинар
+* 0.5 - прийти на семинар
+* 1   - прийти и проявить активность на семинаре
+
+Формула оценки такая:
+
+min(1, sum(scores) / (seminar_number - 1)) * 10
+
+== Бонусы ==
+
+== Ссылки ==
+
+[https://docs.google.com/spreadsheets/d/1iOZ8SJ75Hi3_cJpeiWahOn3ALtS3bUCVXzayzceSvmg/edit#gid=0 Что разобрать подробнее]
+
+[https://docs.google.com/spreadsheets/d/1lFaDg0LRsjrzTit4pNLeUS8lwy-XHBzOeZxjx2eZrnA/edit?usp=sharing Таблица с оценками]
+
+[https://forms.gle/8RpsNWa7nypRpMkdA Обратная связь (анонимно)]
+
