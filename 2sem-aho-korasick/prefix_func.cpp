@@ -4,6 +4,7 @@
 
 std::vector<int> pref_func(std::string& s) {
     std::vector<int> pi(s.length());
+    pi[0] = 0;
     int k;
 
     for (int i = 1; i != s.length(); ++i) {
